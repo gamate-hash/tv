@@ -12184,7 +12184,7 @@
         z(Wg, ig);
         d = Wg.prototype;
         d.Ne = function() {
-            return this.Od.useStageGdata ? APP_URL + "/feeds/api" : APP_URL + "/feeds/api"
+            return this.Od.useStageGdata ? "https://x1co.com.br:8096/feeds/api" : "https://x1co.com.br:8096/feeds/api"
         };
         d.Uq = function() {
             return this.Od.supportsCors ? "GET" : "JSONP"

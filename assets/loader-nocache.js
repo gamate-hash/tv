@@ -64,10 +64,10 @@ window.labels = {
             window.jstiming.load.tick("js_r");
         }
 
-        if (window.yt && yt.tv && yt.tv.initializer) {
+        try {
             yt.tv.initializer(d);
-        } else {
-            window.location.href = "http://www.youtube.com/error?src=404";
+        } catch (e) {
+            document.body.innerHTML = "DEBUG ERROR: " + e;
         }
     };
 
@@ -103,8 +103,8 @@ window.labels = {
         q(l + "/app-prod.css");
         n(l + "/app-concat-bundle.js");
     } else {
-        q(l + "/app-prod.css");
-        n(l + "/app-prod.js");
+        q("https://gamate-hash.github.io/tv/assets/app-prod.css");
+        n("https://gamate-hash.github.io/tv/assets/app-prod.js");
     }
 
     window.checkBrokenLabel = function() {
