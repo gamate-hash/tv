@@ -11234,16 +11234,11 @@
             this.RP = a;
             this.dQ = {
                 FLtrends: "icon-trends",
-                SFon_the_web: "icon-trends",
-                FLYTOTVAllMusic: "icon-music",
-                FLYTOTVmusic: "icon-music",
+                PLv0k4pV5hufzY53DRXxTTWY3JDcyjCR6W: "icon-trends",
                 STmost_popular_Music: "icon-music",
                 STmost_popular_Trending: "icon-trends",
-                FLYTOTVgaming: "icon-gaming",
                 STmost_popular_Games: "icon-gaming",
-                FLYTOTVsports: "icon-sport",
                 STmost_popular_Sports: "icon-sport",
-                FLYTOTVfilm: "icon-film",
                 STmost_popular_Film: "icon-film",
                 STmost_popular_Entertainment: "icon-entertainment",
                 STmost_popular_Comedy: "icon-lol",
@@ -23419,7 +23414,7 @@
             });
             [{
                 name: "featuredService",
-                path: "/leanback_ajax",
+                path: "/tv/leanback_ajax",
                 parser: "featuredParser",
                 paramKey: null,
                 params: {
