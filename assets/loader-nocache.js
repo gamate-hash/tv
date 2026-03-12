@@ -65,7 +65,10 @@ window.labels = {
         }
 
         try {
-            yt.tv.initializer(d);
+            console.log("[DEV] 5 second wait to load YouTube");
+            setTimeout(() => {
+  yt.tv.initializer(d);
+}, 5000);
         } catch (e) {
             document.body.innerHTML = "DEBUG ERROR: " + e;
         }
