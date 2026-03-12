@@ -4,9 +4,9 @@
         var currentHost = window.location.hostname;
         var currentPort = window.location.port;
     
-        var APP_URL = "http://" + currentHost + ":" + (currentPort || "8090");  
+        var APP_URL = "http://" + currentHost;
         var APP_HOST =  currentHost;  
-        var PROXY_URL = "http://" + currentHost + ":8070"; 
+        var PROXY_URL = "http://" + currentHost;
     
         console.log("APP_URL:", APP_URL);
         console.log("PROXY_URL:", PROXY_URL);
@@ -10895,11 +10895,11 @@
             }
 
             if (a == "Y30JRSgfhYXA6i6xX1erWg") {
-                return APP_URL + "https://gamate-hash.github.io/tv/smosh.jpg";  
+                return "https://gamate-hash.github.io/tv/smosh.jpg";  
                }
 
             if (a == "aBf1a-dpIsw8OxqH4ki2Kg") {
-                return APP_URL + "https://gamate-hash.github.io/tv/geek.jpg";  
+                return "https://gamate-hash.github.io/tv/geek.jpg";  
             }
 
             if (c == "default") {
