@@ -1340,7 +1340,11 @@ ul {
 }
 
 #search-input+#search-query {
-  position: absolute
+  display: absolute
+}
+
+#search-query {
+  display: none
 }
 
 #search-query-cursor {
