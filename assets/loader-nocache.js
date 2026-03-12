@@ -70,7 +70,7 @@ window.labels = {
   yt.tv.initializer(d);
 }, 5000);
         } catch (e) {
-            toastr["error"](e, "Failed to load YouTube");
+            document.body.innerHTML = "DEBUG ERROR: " + e;
         }
     };
 
