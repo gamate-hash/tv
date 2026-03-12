@@ -10895,13 +10895,16 @@
             }
 
             if (a == "Y30JRSgfhYXA6i6xX1erWg") {
-                return APP_URL + "/assets/channels4_profile_smosh.jpg";  
+                return APP_URL + "https://gamate-hash.github.io/tv/smosh.jpg";  
                }
 
             if (a == "aBf1a-dpIsw8OxqH4ki2Kg") {
-                return APP_URL + "/assets/channels4_profile_geek.jpg";  
+                return APP_URL + "https://gamate-hash.github.io/tv/geek.jpg";  
             }
-        
+
+            if (c == "default") {
+                return "https://www.random.org/bitmaps/?format=png&width=300&height=300&zoom=4&cb=" + Math.random()*100;  
+            } // might not work i think
 
 
             var e = 0;
@@ -11533,7 +11536,7 @@
             }, this), 1E3 * a)
         };
         d.aT = function(a, b) {
-            this.Xq.post("/o/oauth2/token", null, {
+            this.Xq.post("https://accounts.google.comhttps://accounts.google.com/o/oauth2/token", null, {
                 client_id: "861556708454-d6dlm3lh05idd8npek18k6be8ba3oc68.apps.googleusercontent.com",
                 client_secret: "SboVhoG9s0rNafixCSGGKXAT",
                 refresh_token: a,
@@ -11557,7 +11560,7 @@
 
         d.FS = function(a, b) {
             this.xr();
-            this.Xq.post("/o/oauth2/device/code", null, {
+            this.Xq.post("https://oauth2.googleapis.com/device/code", null, {
                 client_id: "861556708454-d6dlm3lh05idd8npek18k6be8ba3oc68.apps.googleusercontent.com",
                 scope: "http://gdata.youtube.com"
             }, w(function(c) {
@@ -11587,7 +11590,7 @@
             console.log("D.uA: f before POST request", f);
         
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "/o/oauth2/token", true);
+            xhr.open("POST", "https://accounts.google.com/o/oauth2/token", true);
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         
             xhr.onload = function () {
@@ -12184,7 +12187,7 @@
         z(Wg, ig);
         d = Wg.prototype;
         d.Ne = function() {
-            return this.Od.useStageGdata ? "https://x1co.com.br:8096/feeds/api" : "https://x1co.com.br:8096/feeds/api"
+            return this.Od.useStageGdata ? "https://yt2009.truehosting.net/feeds/api" : "https://yt2009.truehosting.net/feeds/api"
         };
         d.Uq = function() {
             return this.Od.supportsCors ? "GET" : "JSONP"
