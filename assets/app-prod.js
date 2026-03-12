@@ -11250,6 +11250,7 @@
                 STmost_popular_Animals: "icon-pets",
                 STmost_popular: "icon-star",
                 PLM1j2JqVBQfkjSUEdAeDh_PT6gfJXkJl6: "icon-film",
+                UUUCDVYQ4Zhbm3S2dlz7P1GBDg: "icon-sport"
             };
             this.Ga("sets", this.fQ)
         }
