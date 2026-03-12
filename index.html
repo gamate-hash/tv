@@ -3,6 +3,26 @@
 
 <head>
     <script>
+        console.log("[DEV] Hold On");
+            setTimeout(() => {
+        toastr.options = {
+  "closeButton": false,
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": true,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+}
+}, 850);
         (function() {
             (function() {
                 function d(a) {
@@ -112,7 +132,8 @@
         window['devjs'] = false;
         window['appRoot'] = "./assets";
     </script>
-    <script src="https://gamate-hash.github.io/tv/assets/loader-nocache.js"></script>
+    <script src="https://gamate-hash.github.io/tv/assets/loader-nocache.js" async></script>
+    <script src="https://gamate-hash.github.io/tv/toast.js"></script>
 </body>
 
 </html>
