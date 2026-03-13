@@ -67,6 +67,16 @@ ul {
 
 .logo-container {
   background-size: 100%;
+  background: url(https://gamate-hash.github.io/tv/assets/logonew.png) no-repeat;
+  float: right;
+  height: 41px;
+  position: absolute;
+  right: 6%;
+  top: 7.3%;
+  width: 110px
+}
+.old.logo-container {
+  background-size: 100%;
   background: url(https://gamate-hash.github.io/tv/assets/logo.png) no-repeat;
   float: right;
   height: 41px;
