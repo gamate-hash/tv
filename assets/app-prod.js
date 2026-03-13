@@ -11251,7 +11251,10 @@
                 STmost_popular: "icon-star",
                 PLM1j2JqVBQfkjSUEdAeDh_PT6gfJXkJl6: "icon-film",
                 UUUCDVYQ4Zhbm3S2dlz7P1GBDg: "icon-sport",
-                UUUCq4qiifOaFGW3a2oljSfxUg: "icon-rocket"
+                UUUCq4qiifOaFGW3a2oljSfxUg: "icon-rocket",
+                "SRdirectv music": "icon-entertainment",
+                "SRvideos before:2013": "icon-star",
+                "SRNexus S": "icon-education",
             };
             this.Ga("sets", this.fQ)
         }

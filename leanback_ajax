@@ -55,7 +55,7 @@
       "title": "Entertainment",
       "tab": "featured",
       "icon": "entertainment",
-      "gdata_list_id": "STmost_popular_Entertainment"
+      "gdata_list_id": "SRdirectv music"
     },
     {
       "gdata_url": "/feeds/api/standardfeeds/US/most_popular_Comedy?time=today",
@@ -97,14 +97,14 @@
       "title": "Education",
       "tab": "featured",
       "icon": "education",
-      "gdata_list_id": "STmost_popular_Education"
+      "gdata_list_id": "SRNexus S"
     },
     {
       "gdata_url": "/feeds/api/standardfeeds/US/most_popular_Animals?time=today",
       "title": "Pets & Animals",
       "tab": "featured",
       "icon": "animals",
-      "gdata_list_id": "STmost_popular_Animals"
+      "gdata_list_id": "SRmost_popular_Animals"
     },
     {
       "gdata_url": "/feeds/api/users/Y30JRSgfhYXA6i6xX1erWg/uploads",
@@ -121,7 +121,7 @@
     {
       "title": "Most Popular",
       "video_count": 30,
-      "gdata_list_id": "STmost_popular",
+      "gdata_list_id": "SRvideos before:2013",
       "icon": "popular",
       "gdata_url": "/feeds/api/standardfeeds/US/most_popular?time=today",
       "list_id": "LBpop,0,t,en_US",
