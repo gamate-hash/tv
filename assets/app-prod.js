@@ -11255,7 +11255,7 @@
                 "SRdirectv music": "icon-entertainment",
                 "SRvideos before:2013": "icon-star",
                 "SRNexus S": "icon-education",
-                "STmost_popular_Animals": "icon-pets",
+                "SRmost_popular_Animals": "icon-pets",
             };
             this.Ga("sets", this.fQ)
         }
