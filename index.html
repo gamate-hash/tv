@@ -113,6 +113,21 @@
         window['appRoot'] = "./assets";
     </script>
     <script src="https://gamate-hash.github.io/tv/assets/loader-nocache.js"></script>
+    <script>
+  const messages = [
+    "using the app as usual i see","XBOX... LIIIIIIIIVVVVVEEEE!!!!!!!!!!!!!!!!","ONLY PICKLES!",
+    ":3","ALBUQUERQUE!", "Oh..."
+  ];
+
+  const data = {
+    copyright: `(C) Gamate Hue. 2026, ${messages[Math.floor(Math.random() * messages.length)]}`
+  };
+
+  const div = document.createElement("div");
+  div.className = "gamate-copyright";
+  div.textContent = data.copyright;
+  document.body.appendChild(div);
+</script>
 </body>
 
 </html>
