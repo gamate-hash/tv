@@ -23259,6 +23259,7 @@
                     fields: "yt:userId,yt:username,title,media:thumbnail,yt:statistics"
                 }
             }, {
+                listType: "SG",
                 name: "channelSuggestionService",
                 path: "/users/{userName}/suggestion",
                 parser: "channelSuggestionParser",
@@ -23282,13 +23283,14 @@
                     }
                 }, {
                     altConstructor: Oj,
+                    altName: "SR",
                     listType: "SR",
                     name: "searchService",
                     path: "/videos",
                     paramKey: "q",
                     params: {
                         fields: "title,logo,entry[$default-filter](title,yt:statistics,yt:hd,yt:claimed,yt:paidContent,yt:rating,media:group(yt:videoid,yt:duration,yt:uploaded,yt:uploaderId,media:credit,media:description)),openSearch:totalResults",
-                        "max-results": 50
+                        "max-results": 100
                     }
                 }, {
                     altName: "FL",
